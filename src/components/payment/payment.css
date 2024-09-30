@@ -1,0 +1,37 @@
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.payment-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.payment-button {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  background-color: #f7b030;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+  background-color: #e9b85e;
+}
+
+@media (max-width: 768px) {
+  .payment-container {
+    padding: 0 10px; /* Smaller padding for mobile */
+  }
+}
